@@ -20,6 +20,7 @@ namespace ASPPatterns.Chap2.Service
 
             if (products == null)
             {
+                string aa;
                 products = _productRepository.GetAllProductsIn(categoryId);
                 _cacheStorage.Store(storageKey, products);
             }
