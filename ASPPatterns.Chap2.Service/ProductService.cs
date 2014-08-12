@@ -18,7 +18,6 @@ namespace ASPPatterns.Chap2.Service
             string storageKey = string.Format("products_in_category_id_{0}", categoryId);
             IList<Product> products = _cacheStorage.Retrieve<List<Product>>(storageKey); //(List<Product>) HttpContext.Current.Cache.Get(storageKey);
 
-            string iii;
             if (products == null)
             {
                 products = _productRepository.GetAllProductsIn(categoryId);
