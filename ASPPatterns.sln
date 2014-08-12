@@ -1,7 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap2.Service", "ASPPatterns.Chap2.Service\ASPPatterns.Chap2.Service.csproj", "{08094A29-B63D-4D2C-8368-11ECF4489A7A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08094A29-B63D-4D2C-8368-11ECF4489A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08094A29-B63D-4D2C-8368-11ECF4489A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08094A29-B63D-4D2C-8368-11ECF4489A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08094A29-B63D-4D2C-8368-11ECF4489A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
